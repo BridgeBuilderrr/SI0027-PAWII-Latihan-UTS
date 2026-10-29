@@ -1,6 +1,8 @@
 // Latihan UTS PAW II - Menu Kantin Kampus (Starter)
 // Koneksi MongoDB, CORS, parser JSON, dan route /kantin sudah tersedia.
 // Lengkapi bagian bertanda TODO (lihat README.md bagian C dan D).
+const dns = require('dns');
+dns.setServers(['8.8.8.8', '1.1.1.1']);
 
 require("express-async-errors");
 require("dotenv").config();
